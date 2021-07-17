@@ -1,5 +1,5 @@
-/* Treehouse FSJS Techdegree
- * Project 4 - OOP Game App
+/* By Justin Black
+ * OOP Game App
  * Game.js */
 
 class Game {
@@ -132,7 +132,7 @@ class Game {
     document.querySelector("#phrase").appendChild(ul);
     this.missed = 0;
     
-     // EXTRA CREDIT #2 Removes warning message div
+     // Removes warning message div
     document.querySelector("#warning").remove(); 
     
     
