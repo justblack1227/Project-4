@@ -1,8 +1,7 @@
-/* Treehouse FSJS Techdegree
- * Project 4 - OOP Game App
+/* By Justin Black 
+ * OOP Game App
  * app.js */
 
-// I'm going for 'exceeds expectations' but will accept a 'Meets Expectations' grade.
 
 const game = new Game();
 const mainBtn = document.getElementById("btn__reset");
@@ -52,7 +51,7 @@ keyboard.addEventListener("click", (e) => {
 
 /**
 * Event listener for physical Keyboard
-* EXTRA CREDIT #1 - Added keyboard functionality
+* Added keyboard functionality
 */
 document.addEventListener("keydown", (e) => {
   const btnClicked = e.key;
