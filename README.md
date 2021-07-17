@@ -1,4 +1,4 @@
-#Project 4 
+Guessing Game App
   With this project, a guessing-game app will be created to guess hidden phrases.
   In here you will find:
    - Javascript Object-Oriented functionality and syntax
