@@ -1,5 +1,5 @@
-/* Treehouse FSJS Techdegree
- * Project 4 - OOP Game App
+/* By Justin Black
+ * OOP Game App
  * Phrase.js */
 
 class Phrase {
@@ -14,10 +14,10 @@ class Phrase {
     const displayPhrase = this.phrase;
     let phraseUL = document.getElementById("phrase").querySelector("ul");
   
-  //Extra Credit #2 - changed background color of main game container.
+  //changed background color of main game container.
     document.querySelector(".main-container").style.backgroundColor = "#ffd35c"; 
   
-  //Extra Credit #2 - Creates div to display message when user loses life. 
+  //Creates div to display message when user loses life. 
     const span = document.createElement("section"); 
     span.textContent = "";
     span.id = "warning";
